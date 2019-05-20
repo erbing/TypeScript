@@ -7,9 +7,9 @@ function Person(name: any, age: Number) {
   age: Number;
 }
 
-class Names {
-  names: String | undefined;
+class Getters {
+  name!: String | "zhange";
   sayHello() {
-    console.log(this.names);
+    console.log(this.name);
   }
 }

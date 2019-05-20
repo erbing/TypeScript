@@ -6,8 +6,8 @@ function Person(name, age) {
     name: String;
     age: Number;
 }
-class Names {
+class Getters {
     sayHello() {
-        console.log(this.names);
+        console.log(this.name);
     }
 }
