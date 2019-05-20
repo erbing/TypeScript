@@ -13,3 +13,8 @@ class Getters {
     console.log(this.name);
   }
 }
+
+interface Boys {
+  name: String;
+  age: Number;
+}
